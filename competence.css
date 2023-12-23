@@ -1,0 +1,239 @@
+
+.competence_contenair{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(233, 36, 36); */
+}
+
+
+.outer {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid rgb(243, 182, 13);
+    /* padding: 20px; */
+    box-shadow: 6px 6px 10px -1px rgba(78, 78, 78, 0.836),
+                -6px -6px 10px -1px rgba(73, 72, 72, 0.7),
+
+}
+
+.inner {
+    height: 83%;
+    width: 83%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 1px solid rgb(243, 182, 13);
+    box-shadow: inset 4px 4px -1px rgba(0,0,0,0.2),
+                 inset -4px -4px 6px rgba(255,255,255,0.7),
+                 -0.5px -0.5px  0px rgba(255,255,255,1),
+                 0.5px 0.5px 0px rgba(0,0,0,0.15),
+                 0px 12px 10px -10px rgba(0,0,0,0.5)
+}
+
+.svg-container {
+    position: absolute;
+    width: 120px;
+    height: 101px;
+    /* border: 1px solid white;
+    padding: 50px; */
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.svg-container h4{
+    /* margin-top:; */
+    position: relative;
+    top: 67px;
+    bottom: 0;
+    letter-spacing: 1.5px;
+}
+
+svg{
+    position: absolute;
+    top: 0px ;
+    left: 0;
+    background-color: transparent;
+}
+
+#numbers{
+    font-weight: bold;
+    color: white;
+}
+
+#html{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: html 2s linear forwards;
+
+}
+
+@keyframes html {
+    100%{
+        stroke-dashoffset: 54;
+    }
+}
+/* -----css competence style-------- */
+#css{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: css 2s linear forwards;
+}
+@keyframes css {
+    100%{
+        stroke-dashoffset: 137;
+    }
+}
+/* ----- javaScript competence style-------- */
+#javaScript{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: javaScript 2s linear forwards;
+}
+@keyframes javaScript {
+    100%{
+        stroke-dashoffset: 164;
+    }
+}
+/* ----- java competence style-------- */
+#java{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: java 2s linear forwards;
+}
+@keyframes java {
+    100%{
+        stroke-dashoffset: 137;
+    }
+}
+/* ---------------angular competence style */
+#angular{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: angular 2s linear forwards;
+}
+@keyframes angular {
+    100%{
+        stroke-dashoffset: 96;
+    }
+}
+/* ---------------ionic competence style */
+#ionic{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: ionic 2s linear forwards;
+}
+@keyframes ionic {
+    100%{
+        stroke-dashoffset: 109;
+    }
+}
+/* ---------------flutter competence style */
+#flutter{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: flutter 2s linear forwards;
+}
+@keyframes flutter {
+    100%{
+        stroke-dashoffset: 27;
+    }
+}
+/* ---------------dart competence style */
+#dart{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 274;
+    animation: dart 2s linear forwards;
+}
+@keyframes dart {
+    100%{
+        stroke-dashoffset: 82;
+    }
+}
+/* ---------------wordpress competence style */
+#wordpress{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 274;
+    animation: wordpress 2s linear forwards;
+}
+@keyframes wordpress {
+    100%{
+        stroke-dashoffset: 27;
+    }
+}
+/* ---------------figma competence style */
+#figma{ 
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 274;
+    animation: figma 2s linear forwards;
+}
+@keyframes figma {
+    100%{
+        stroke-dashoffset: 27;
+    }
+}
+
+.class_comptence{
+    /* display: none; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* column-gap: 30px; */
+    row-gap: 90px;
+    /* padding: 5% 5%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    
+
+}
+.h2_competence{
+    margin: 40px;
+    /* border: 1px solid #e91717 ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2_competence h2{
+color: rgb(243, 182, 13);
+font-size: 25px;
+}
