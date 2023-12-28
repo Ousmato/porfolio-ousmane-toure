@@ -527,7 +527,7 @@ main.row{
 
 .container_contact{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-around;
     
 }
@@ -598,22 +598,7 @@ textarea{
     /* background-color: rgb(243, 182, 13); */
 
 }
-.btn{
-    display: flex;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-    background-color: rgb(243, 182, 13);
-    width: 120px;
-    border-radius: 8px;
-    border: 1px solid rgb(243, 182, 13);
-    padding: 5px;
-    
 
-}
 /* ------footer----contenaire */
 footer{
     width: 100%;

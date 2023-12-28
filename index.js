@@ -183,7 +183,7 @@ document.getElementById('myForm')
     .then(() => {
       btn.value = 'Envoyer';
       alert('Message Envoyé avec succés!');
-      form.reset();
+      
     }, (err) => {
       btn.value = 'Envoyer';
       alert(JSON.stringify(err));
