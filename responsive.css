@@ -251,8 +251,7 @@ margin: 0;
     display: none;
     
  }
- .box_content1 .footer-content{
-    border: 1px solid red;
+
  }
  #myForm{
     width: 100%;
@@ -322,4 +321,14 @@ margin: 0;
     border: 1px solid red;
 } */
 
-
+/* CSS pour le footer */
+footer {
+    opacity: 0; /* Commencez avec une opacité de 0 pour l'animation */
+    transition: opacity 0.5s ease-in-out; /* Ajoutez une transition pour le fondu */
+  }
+  
+  /* CSS pour activer l'animation lorsque le footer est dans la vue */
+  footer.active {
+    opacity: 1; /* Lorsqu'il reçoit la classe 'active', l'opacité passe à 1 */
+  }
+  
