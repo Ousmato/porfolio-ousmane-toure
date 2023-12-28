@@ -190,21 +190,6 @@ document.getElementById('myForm')
     });
 });
 
-// Sélectionnez votre footer
-const footer = document.querySelector('footer');
-
-// Créez une nouvelle instance de IntersectionObserver
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      footer.classList.add('active'); // Ajoutez la classe 'active' lorsque le footer est dans la vue
-      observer.unobserve(entry.target); // Arrêtez d'observer une fois que c'est fait
-    }
-  });
-});
-
-// Démarrez l'observation du footer
-observer.observe(footer);
 
 
  });

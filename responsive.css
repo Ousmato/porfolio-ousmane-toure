@@ -313,7 +313,7 @@ margin: 0;
     display: flex;
     flex-direction: column;
 }
-}
+
 
 /* .info_contact .container_contact .box_content1{
     display: flex;
@@ -321,14 +321,4 @@ margin: 0;
     border: 1px solid red;
 } */
 
-/* CSS pour le footer */
-footer {
-    opacity: 0; /* Commencez avec une opacité de 0 pour l'animation */
-    transition: opacity 0.5s ease-in-out; /* Ajoutez une transition pour le fondu */
-  }
-  
-  /* CSS pour activer l'animation lorsque le footer est dans la vue */
-  footer.active {
-    opacity: 1; /* Lorsqu'il reçoit la classe 'active', l'opacité passe à 1 */
-  }
   
