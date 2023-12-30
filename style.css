@@ -630,9 +630,7 @@ footer{
 .footer-content .icon_ici_email {
     display: flex;flex-direction: row;
 }
-/* .fa-hand-point-right{
-    height: 70px !important;
-} */
+
 .footer-content ul{
     text-align: center;
 }
